@@ -1,0 +1,95 @@
+body{
+	background-color: #000;
+}
+main{
+    background-color: lightyellow;
+    margin: 0 auto;
+    width: 95%;     
+	
+} 
+/*<-------------------header--------------------->*/
+header{
+	display: flex;
+	border: 2px solid black;	
+	justify-content: space-between;
+}
+figure{
+	margin: 0 0 1% 0;
+}
+/*<-----------------navigation------------------->*/
+nav{
+	display: flex;
+	border: 2px solid #000;
+	padding: 1%;
+	
+}
+nav li{
+	display: inline-block;
+	border: 1px solid #000;
+	background-color: #fb7;	
+	margin: 1% 5%;
+	padding: 1%;
+}
+nav ul{
+	text-align: center;	
+	margin: 0 auto;
+	padding: 0;
+	width: 100%
+}
+nav li a{
+	display: block;	
+
+}
+/*<-------------------sections------------------->*/
+.outer_section{
+	border: 2px solid #000;
+}
+section section{
+	display: flex;
+
+}
+section h2{
+	text-align: center;
+}
+article{
+	text-align: center;
+}
+/*<--------------------footer-------------------->*/
+footer{
+	text-align: center;
+
+}
+iframe{
+	margin: 0 auto;
+	height: 42vw;
+	width: 60vw;
+}
+/*<-------------------responsive changes--------------------->*/
+@media screen and (max-width: 550px) {
+	.disappear{
+		display: none;
+	}
+	header{
+		display: block;
+		text-align: center;
+	}
+	nav{
+		margin: 0;
+		padding: 0;
+	}	
+	nav li{
+		margin: 0;
+		padding: 0;
+		display: block;		
+		width: 100%;
+	}
+	nav ul{
+		padding: 1em 0;
+	}
+	section section{
+		display: block;
+		padding: 5% 5%;
+		font-size: .9em;
+	}
+	
+}  /*end of 650px*/
